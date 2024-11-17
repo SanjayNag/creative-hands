@@ -1,0 +1,30 @@
+﻿.footer {
+  bottom: 0;
+  height: 25px;
+  position: fixed;
+}
+
+.header {
+  height: 100px;
+}
+
+.footer,
+.header {
+  width: 100%;
+  background-color: #0d6efd;
+  text-align: center;
+  padding: 5px;
+  color: #ffffff;
+}
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+  color: black;
+  background-color: #f8f9fa;
+}
+
+.info {
+  padding: 25px;
+  text-align: center;
+}
