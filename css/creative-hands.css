@@ -28,3 +28,17 @@ body {
   padding: 25px;
   text-align: center;
 }
+
+.row-product-images {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.row-product-images img {
+  height: 350px; /* Set a uniform height */
+  width: 100%; /* Ensures uniform width */
+  object-fit: fill; /* Ensures the image maintains its aspect ratio */
+}
+.row-product-images div {
+  flex: 1; /* Makes each image container take up equal space */
+}
